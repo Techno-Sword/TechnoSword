@@ -1,12 +1,11 @@
 .titolo {
     color: red;
-    font-family: Arial;
     text-align: center;
     font-size: 54px;
 }
 body {
-    background-image: url(image1.png);
-    background-size: 100%;
+    background-size: cover;
+    background-image: url(image/banner.jpg);
 }
 input {
     margin-top: 5px;
@@ -15,20 +14,16 @@ input, p {
     front-weight: bold;
 }
 .Textm {
-  font-family: Bahnschrift SemiBold;
+  font-family: 'Oswald';
   position: relative;
   left: 46px;
   top: 15px
-}
-#musica {
-  position:relative;
-  bottom: 580px;
 }
 #orario {
   width:300px;
   height:90px;
   border:none;
-  box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.4);
+  box-shadow: 0px 0px 20px 0px;
   font-family: 'Oswald';
   font-size:50px;
   color:white;
@@ -46,11 +41,15 @@ input, p {
   bottom:100px;
 }
 .text {
-  color:white;
+  font-family: 'Oswald';
+  color:black;
   font-size: 40px;
   text-align: center;
 }
 .SOCIAL {
   position: relative;
-  left: 1780px;
- top: 310px;
+  bottom:600px;
+  left: 1830px;
+  width:50px;
+  box-shadow: 0px 0px 20px 0px;
+}
