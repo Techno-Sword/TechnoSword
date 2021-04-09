@@ -22,4 +22,4 @@ setInterval(setOra, 1000);
 
 
 
-alert("Ciao");
+console.log("alert("Ciao")");
