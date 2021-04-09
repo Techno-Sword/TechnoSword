@@ -18,3 +18,7 @@ function setOra(){
 }
 
 setInterval(setOra, 1000);
+
+
+
+console.log("Ciao")
