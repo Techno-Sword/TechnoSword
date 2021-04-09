@@ -21,4 +21,5 @@ setInterval(setOra, 1000);
 
 
 
-console.log("Ciao")
+console.clear();
+console.log("Ciao");
